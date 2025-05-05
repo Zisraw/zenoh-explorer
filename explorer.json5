@@ -1,0 +1,14 @@
+{
+  /// The node's mode (router, peer or client)
+  "mode": "client",
+  "connect": {
+    "endpoints": ["tls/localhost:7447"]
+  },
+  "transport": {
+    "link": {
+      "tls": {
+        "root_ca_certificate": "/home/user/tls/minica.pem"
+      }
+    }
+  }
+}

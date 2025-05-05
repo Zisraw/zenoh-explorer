@@ -1,0 +1,12 @@
+[package]
+name = "zenoh-explorer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.41"
+colored = "3.0.0"
+eframe = "0.31.1"
+egui = "0.31.1"
+tokio = "1.44.2"
+zenoh = "1.3.4"
